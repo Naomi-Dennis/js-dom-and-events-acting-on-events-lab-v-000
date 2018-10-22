@@ -12,7 +12,7 @@ preventRefreshOnSubmit()
 //   })
 
 function retrieveEmployeeInformation(){
-  return document.querySelector("input")
+  return document.querySelector("input").value
 }
 
   // describe('addNewElementAsLi()', () => {
