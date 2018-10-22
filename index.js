@@ -4,8 +4,9 @@ function preventRefreshOnSubmit(){
     })
 }
 
-preventRefreshOnSubmit()
-
+$(document.ready){
+  preventRefreshOnSubmit()
+}
 
 // describe('retrieveEmployeeInformation()', () => {
 //     it('retrieves the employee information from the input', () => {
