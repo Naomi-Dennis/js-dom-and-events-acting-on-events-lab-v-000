@@ -88,4 +88,5 @@ function retrieveEmployeeInformation(){
     while(listElement.children.length > 0){
       listElement.removeChild( listElement.firstChild )
     }
+    console.log(listElement.innerHTML)
   }
