@@ -25,10 +25,10 @@ function retrieveEmployeeInformation(){
   // })
   
   function addNewElementAsLi(){
-    let inputElement = document.querySelector("input")
+    let listElement = document.querySelector(".employee-list")
     let employeeName = retrieveEmployeeInformation()
     let employeeListItem = document.createElement("li")
     employeeListItem.innerHTML = employeeName
     console.log(employeeListItem)
-    inputElement.appendChild(employeeListItem)
+    listElement.appendChild(employeeListItem)
   }
