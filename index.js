@@ -25,12 +25,15 @@ function retrieveEmployeeInformation(){
   // })
   
   function addNewElementAsLi(){
+    let clearLink = document.querySelector("a")
+    clearLink.addEventListener("click", (e)=>{
     let listElement = document.querySelector(".employee-list")
     let employeeName = retrieveEmployeeInformation()
     let employeeListItem = document.createElement("li")
     employeeListItem.innerHTML = employeeName
   
     listElement.appendChild(employeeListItem)
+    })
   }
   
   
