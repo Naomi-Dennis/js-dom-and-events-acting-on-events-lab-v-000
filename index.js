@@ -4,10 +4,6 @@ function preventRefreshOnSubmit(){
     })
 }
 preventRefreshOnSubmit()
-$(document.ready){
-  
-}
-
 // describe('retrieveEmployeeInformation()', () => {
 //     it('retrieves the employee information from the input', () => {
 //       document.querySelector('input').value = 'Bob'
