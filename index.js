@@ -85,10 +85,10 @@ function retrieveEmployeeInformation(){
   function clearEmployeeListOnLinkClick(e){
     let submitButton = document.querySelector("input[type='submit']")
     submitButton.addEventListener("click", (e)=>{
-      
-    })
    let listElement = document.querySelector(".employee-list")
     while(listElement.children.length > 0){
       listElement.removeChild( listElement.firstChild )
-    }
+    }    
+    })
+  
   }
