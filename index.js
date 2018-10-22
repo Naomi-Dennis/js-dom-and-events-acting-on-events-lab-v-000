@@ -17,3 +17,18 @@ preventRefreshOnSubmit()
 function retrieveEmployeeInformation(){
   return $("input")
 }
+
+  // describe('addNewElementAsLi()', () => {
+  //   it('adds an li element with the text as the value of the input', () => {
+  //     expect(document.querySelector('ul').innerHTML).to.not.include('Bob')
+  //     document.querySelector('input').value = 'Bob'
+  //     addNewElementAsLi()
+  //     expect(document.querySelector('.employee-list').innerHTML).to.include('Bob')
+  //   })
+  // })
+  
+  function addNewElementAsLi(){
+    let input_element = retrieveEmployeeInformation()
+    let employee_name = input_element.value();
+    input_element.append(`<li>${employee_name}</li>`)
+  }
