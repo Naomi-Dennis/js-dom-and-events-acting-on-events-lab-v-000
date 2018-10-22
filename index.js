@@ -84,8 +84,8 @@ function retrieveEmployeeInformation(){
   // })
   function clearEmployeeListOnLinkClick(){
    let listElement = document.querySelector(".employee-list")
+   console.log(listElement.children)
     while(listElement.children > 0){
-      console.log(listElement.firstChild)
       listElement.removeChild( listElement.firstChild )
     }
   }
