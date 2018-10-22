@@ -65,3 +65,24 @@ function retrieveEmployeeInformation(){
     inputElement.value = ""
    }
   }
+  
+  
+  // describe('clearEmployeeListOnLinkClick', () => {
+  //   it('empties out the employee list when "Clear employee list" button clicked', () => {
+  //     let ul = document.querySelector('ul')
+  //     let button = document.querySelector('a')
+  //     let event = new MouseEvent('click', {
+  //       'view': window,
+  //       'bubbles': true,
+  //       'cancelable': true
+  //     });
+  //     clearEmployeeListOnLinkClick()
+  //     expect(ul.innerHTML).not.to.equal('')
+  //     button.dispatchEvent(event)
+  //     expect(ul.innerHTML).to.equal('')
+  //   })
+  // })
+  function clearEmployeeListOnLinkClick(){
+    let list = document.querySelector(".employee-list")
+    list.clear()
+  }
