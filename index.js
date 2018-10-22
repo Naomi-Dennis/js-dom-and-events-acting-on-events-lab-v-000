@@ -15,5 +15,5 @@ preventRefreshOnSubmit()
 //   })
 
 function retrieveEmployeeInformation(){
-  
+  return $("input")
 }
