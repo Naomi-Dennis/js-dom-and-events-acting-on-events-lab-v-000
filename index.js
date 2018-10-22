@@ -12,7 +12,7 @@ preventRefreshOnSubmit()
 //   })
 
 function retrieveEmployeeInformation(){
-  return $("input")
+  return document.querySelector("input")
 }
 
   // describe('addNewElementAsLi()', () => {
@@ -26,6 +26,8 @@ function retrieveEmployeeInformation(){
   
   function addNewElementAsLi(){
     let input_element = retrieveEmployeeInformation()
-    let employee_name = input_element.value();
-    input_element.append(`<li>${employee_name}</li>`)
+    let employee_name = input_element.innerHTML
+    let employee_list_item = document.createElement("li")
+    employee_list_item.innerHTML = employee_name
+    input_element.appendChild()employee_list_iteme
   }
