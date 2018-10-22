@@ -82,13 +82,9 @@ function retrieveEmployeeInformation(){
   //     expect(ul.innerHTML).to.equal('')
   //   })
   // })
-  function clearEmployeeListOnLinkClick(e){
-    let submitButton = document.querySelector("input[type='submit']")
-    submitButton.addEventListener("click", (e)=>{
+  function clearEmployeeListOnLinkClick(){
    let listElement = document.querySelector(".employee-list")
     while(listElement.children.length > 0){
       listElement.removeChild( listElement.firstChild )
-    }    
-    })
-  
+    }
   }
