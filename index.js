@@ -58,5 +58,5 @@ function retrieveEmployeeInformation(){
   //   })
   // })
   function addNewLiOnClick(){
-    
+   addNewElementAsLi
   }
