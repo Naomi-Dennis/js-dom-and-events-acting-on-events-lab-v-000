@@ -29,5 +29,5 @@ function retrieveEmployeeInformation(){
     let employee_name = input_element.innerHTML
     let employee_list_item = document.createElement("li")
     employee_list_item.innerHTML = employee_name
-    input_element.appendChild()employee_list_iteme
+    input_element.appendChild(employee_list_item)
   }
