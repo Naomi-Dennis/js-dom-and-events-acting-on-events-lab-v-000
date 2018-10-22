@@ -34,33 +34,29 @@ function retrieveEmployeeInformation(){
   }
   
   
-    // describe('addNewLiOnClick()', () => {
-    // it('adds the employee name as an li element on click', () => {
-
-    //   let submit = document.querySelector('input[type="submit"]')
-    //   let event = new MouseEvent('click', {
-    //     'view': window,
-    //     'bubbles': true,
-    //     'cancelable': true
-    //   });
-    //   document.querySelector('input').value = 'Fred'
-
-    //   submit.dispatchEvent(event)
-    //   expect(document.querySelector('.employee-list').innerHTML).not.to.include('Fred')
-    //   addNewLiOnClick()
-    //   submit.dispatchEvent(event)
-    //   expect(document.querySelector('.employee-list').innerHTML).to.include('Fred')
-    // })
-
-  })
-function addNewLiOnClick(){
-  
-}  
   //   describe('addNewLiOnClick()', () => {
- 
+  //   it('adds the employee name as an li element on click', () => {
+
+  //     let submit = document.querySelector('input[type="submit"]')
+  //     let event = new MouseEvent('click', {
+  //       'view': window,
+  //       'bubbles': true,
+  //       'cancelable': true
+  //     });
+  //     document.querySelector('input').value = 'Fred'
+
+  //     submit.dispatchEvent(event)
+  //     expect(document.querySelector('.employee-list').innerHTML).not.to.include('Fred')
+  //     addNewLiOnClick()
+  //     submit.dispatchEvent(event)
+  //     expect(document.querySelector('.employee-list').innerHTML).to.include('Fred')
+  //   })
+
   //   it('clears the input value', () => {
   //     addNewLiOnClick()
   //     expect(document.querySelector('input').value).to.equal('')
   //   })
   // })
-  
+  function addNewLiOnClick(){
+    
+  }
