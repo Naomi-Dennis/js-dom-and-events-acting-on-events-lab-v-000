@@ -3,9 +3,9 @@ function preventRefreshOnSubmit(){
       event.preventDefault()
     })
 }
-
+preventRefreshOnSubmit()
 $(document.ready){
-  preventRefreshOnSubmit()
+  
 }
 
 // describe('retrieveEmployeeInformation()', () => {
