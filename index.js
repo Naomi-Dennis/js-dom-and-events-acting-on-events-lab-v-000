@@ -58,7 +58,10 @@ function retrieveEmployeeInformation(){
   //   })
   // })
   function addNewLiOnClick(){
+   let inputElement = document.querySelector("input")
+   if(inputElement.value != ""){
     addNewElementAsLi()
-    let inputElement = document.querySelector("input")
+
     inputElement.value = ""
+   }
   }
