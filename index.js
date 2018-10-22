@@ -25,15 +25,12 @@ function retrieveEmployeeInformation(){
   // })
   
   function addNewElementAsLi(){
-    let clearLink = document.querySelector("a")
-    clearLink.addEventListener("click", (e)=>{
     let listElement = document.querySelector(".employee-list")
     let employeeName = retrieveEmployeeInformation()
     let employeeListItem = document.createElement("li")
     employeeListItem.innerHTML = employeeName
   
     listElement.appendChild(employeeListItem)
-    })
   }
   
   
@@ -86,8 +83,11 @@ function retrieveEmployeeInformation(){
   //   })
   // })
   function clearEmployeeListOnLinkClick(){
+    let clearLink = document.querySelector("a")
+    clearLink.addEventListener("click", (e)=>{
    let listElement = document.querySelector(".employee-list")
     while(listElement.children.length > 0){
       listElement.removeChild( listElement.firstChild )
     }
+    })
   }
